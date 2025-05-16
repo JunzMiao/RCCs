@@ -10,10 +10,11 @@ We develop an adversarial defense method based on representation consistency con
 The Proposed Method
 ----
 <p align="center">
-<img src="./fig-1.png" width=300/>
-<img src="./fig-2.png" width=300/>
-<img src="./fig-3.png" width=300/>
+<img src="./fig-1.png" width=200/>
+<img src="./fig-2.png" width=200/>
+<img src="./fig-3.png" width=200/>
 </p>
+
 
 
 
