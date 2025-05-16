@@ -23,6 +23,7 @@ In this paper, we measure the distance between example feature representations u
 $$
 d_{ij}\triangleq\sqrt{\left[f_{\boldsymbol{\theta}}(\boldsymbol{x}_{i})-f_{\boldsymbol{\theta}}(\boldsymbol{x}_{j})\right]^{T}\left[f_{\boldsymbol{\theta}}(\boldsymbol{x}_{i})-f_{\boldsymbol{\theta}}(\boldsymbol{x}_{j})\right]}
 $$
+
 To facilitate subsequent numerical computations, we apply the softmax function to each row of the distance matrix, transforming it into a normalized similarity matrix. The resulting matrix is denoted as $\boldsymbol{M_{S}} = [s_{ij}] \in \mathbb{R}^{B \times B}$, where each element $s_{ij}$ quantifies the similarity between sample $i$ and sample $j$ in the feature space.
 $$
 s_{ij}\triangleq\frac{{\rm exp}(d_{ij})}{\sum_{j=1}^{B}{\rm exp}(d_{ij})}
