@@ -9,11 +9,12 @@ We develop an adversarial defense method based on representation consistency con
 
 The Proposed Method
 ----
-<center class="half">
-<img src="./fig-1.png" width=200/>
-<img src="./fig-2.png" width=200/>
-<img src="./fig-3.png" width=200/>
-</center>
+<p align="center">
+<img src="./fig-1.png" width=300/>
+<img src="./fig-2.png" width=300/>
+<img src="./fig-3.png" width=300/>
+</p>
+
 
 
 In this paper, we measure the distance between example feature representations using the commonly adopted Euclidean distance. Specifically, we define $d\left[f_{\boldsymbol{\theta}}(\boldsymbol{x}_{i}), f_{\boldsymbol{\theta}}(\boldsymbol{x}_{j})\right]$ as the distance between the features of examples $\boldsymbol{x}_i$ and $\boldsymbol{x}_j$, where $f_{\boldsymbol{\theta}}(\cdot)$ denotes the feature extractor parameterized by $\boldsymbol{\theta}$. Based on this metric, we construct a pairwise distance matrix $\boldsymbol{M}_{\mathcal{D}} = [d_{ij}] \in \mathbb{R}^{B \times B}$, where $B$ is the number of samples in each mini-batch during training.
